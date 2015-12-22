@@ -1,14 +1,19 @@
+require('styles/Body.sass');
+
 import React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, PageHeader } from 'react-bootstrap';
 
 class BodyComponent extends React.Component {
   render() {
     return (
       <Grid className="body-component">
-        <h2 className="headline">
-          New-Alliance – Quality Construction for Commercial and Residential
-          Developments in Ontario
-        </h2>
+        <PageHeader className="headline">
+          New-Alliance
+          <br/>
+          <small>Quality Construction for
+          Commercial and Residential Developments in
+          Ontario</small>
+        </PageHeader>
         <p>
           At New-Alliance, we specialize in providing state-of-the-art
           Construction services for commercial, residential and municipal
@@ -19,6 +24,9 @@ class BodyComponent extends React.Component {
           your development at a competitive price.
         </p>
 
+        <PageHeader className="headline" id="about">
+          About Us
+        </PageHeader>
         <h3>A Construction Company with A Difference</h3>
         <p>
           Rather than bringing together a group of random contract

@@ -5,7 +5,7 @@ export default function() {
     <span
       className="contact-button"
       dangerouslySetInnerHTML={{__html: `
-        <a class="typeform-share button"
+        <a class="typeform-share button btn btn-primary"
            href="https://adamzmenak.typeform.com/to/H2CxU0" data-mode="1"
            target="_blank">Contact Us</a>
         <script>

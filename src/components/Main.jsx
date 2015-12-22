@@ -6,6 +6,7 @@ import React from 'react';
 
 import Header from './Header';
 import Body from './Body';
+import Footer from './Footer';
 
 class AppComponent extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class AppComponent extends React.Component {
       <div className="index">
         <Header />
         <Body />
+        <Footer />
       </div>
     );
   }
