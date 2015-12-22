@@ -11,8 +11,8 @@ class HeaderComponent extends React.Component {
         <Grid>
           <div className="logo-main">New Alliance Logo</div>
           <div className="contact">
-            <p>t. (905) 637 8883</p>
-            <Typeform />
+            <h4>Get a free estimate</h4>
+            <p>call us (905) 637 8883 or <Typeform /></p>
           </div>
         </Grid>
       </div>
